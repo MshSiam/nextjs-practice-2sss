@@ -19,6 +19,7 @@ const index = () => {
       </Link>
       <br />
       <button onClick={handleClick}>Place Order</button>
+      <h1>Currently, learning NEXT.Js</h1>
     </div>
   )
 }
