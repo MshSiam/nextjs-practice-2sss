@@ -20,6 +20,9 @@ const index = () => {
       <Link href="/news">
         <a href="">News</a>
       </Link>
+      <Link href="/dashboard">
+        <a href="">Dashboard</a>
+      </Link>
       <br />
       <br />
       <button onClick={handleClick}>Place Order</button>
