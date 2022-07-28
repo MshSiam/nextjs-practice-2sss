@@ -26,6 +26,9 @@ const index = () => {
       <Link href="/dashboardSWR">
         <a href="">Dashboard-SWR</a>
       </Link>
+      <Link href="/events">
+        <a href="">Event List</a>
+      </Link>
       <br />
       <br />
       <button onClick={handleClick}>Place Order</button>

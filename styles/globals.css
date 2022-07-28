@@ -33,3 +33,14 @@ a {
   margin-bottom: 10px;
   border-radius: 4px;
 }
+
+.fff {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid green;
+  margin-top: 10px;
+}
+
+.fff h2 {
+  display: inline-block;
+}
