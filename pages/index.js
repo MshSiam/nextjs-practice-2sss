@@ -17,6 +17,9 @@ const index = () => {
       <Link href="/product">
         <a href="">Product</a>
       </Link>
+      <Link href="/news">
+        <a href="">News</a>
+      </Link>
       <br />
       <button onClick={handleClick}>Place Order</button>
       <h1>Currently, learning NEXT.Js</h1>
