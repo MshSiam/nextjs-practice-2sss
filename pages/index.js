@@ -6,7 +6,7 @@ const index = () => {
 
   const handleClick = () => {
     console.log("order placed")
-    router.replace("/product")
+    router.replace("/products")
   }
   return (
     <div>
@@ -14,12 +14,13 @@ const index = () => {
       <Link href="/blog">
         <a href="">Blog</a>
       </Link>
-      <Link href="/product">
-        <a href="">Product</a>
+      <Link href="/products">
+        <a href="">Products</a>
       </Link>
       <Link href="/news">
         <a href="">News</a>
       </Link>
+      <br />
       <br />
       <button onClick={handleClick}>Place Order</button>
       <h1>Currently, learning NEXT.Js</h1>
