@@ -1,7 +1,7 @@
 function ArticleListByCategory({ articles, category }) {
   return (
     <>
-      <h1>Showing News for category {category}</h1>
+      <h1>Showing News for Category {category}</h1>
       {articles.map((article) => {
         return (
           <div key={article.id}>
