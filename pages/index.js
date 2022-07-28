@@ -24,7 +24,7 @@ const index = () => {
         <a href="">Dashboard</a>
       </Link>
       <Link href="/dashboardSWR">
-        <a href="">DashboardSWR</a>
+        <a href="">Dashboard-SWR</a>
       </Link>
       <br />
       <br />
